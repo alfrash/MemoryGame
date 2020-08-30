@@ -13,7 +13,7 @@ class EmojiMemoryGame: ObservableObject {
     // private: view cannot see model (MemoryGame<String>) and cannot edit or access it only viewModel can
     @Published private var model: MemoryGame<String> = createMemoryGame()
     
-    static func createMemoryGame() -> MemoryGame<String> {
+    private static func createMemoryGame() -> MemoryGame<String> {
         let emojis: Array<String> = ["🐙", "🐳", "🐠"]
         return MemoryGame(numberOfBairsOfCards: emojis.count) { pairIndex in
             emojis[pairIndex]

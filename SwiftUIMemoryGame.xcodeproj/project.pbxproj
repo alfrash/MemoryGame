@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D201A46624F9DFF1004F3004 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A46524F9DFF1004F3004 /* Pie.swift */; };
 		D23161FC24F7314900BB60CD /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23161FB24F7314900BB60CD /* Array+Only.swift */; };
+		D24A9EBC24FA82A10016469A /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A9EBB24FA82A10016469A /* Cardify.swift */; };
 		D258A3C124F1F4BE003E6757 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258A3C024F1F4BE003E6757 /* Grid.swift */; };
 		D258A3C324F208FC003E6757 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258A3C224F208FC003E6757 /* GridLayout.swift */; };
 		D287558224EAF8EC00CB7B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287558124EAF8EC00CB7B90 /* AppDelegate.swift */; };
@@ -22,7 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D201A46524F9DFF1004F3004 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pie.swift; path = MemoryGame/Views/Pie.swift; sourceTree = SOURCE_ROOT; };
 		D23161FB24F7314900BB60CD /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+Only.swift"; path = "MemoryGame/Model/Array+Only.swift"; sourceTree = SOURCE_ROOT; };
+		D24A9EBB24FA82A10016469A /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cardify.swift; path = MemoryGame/Views/Cardify.swift; sourceTree = SOURCE_ROOT; };
 		D258A3C024F1F4BE003E6757 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		D258A3C224F208FC003E6757 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		D287557E24EAF8EC00CB7B90 /* SwiftUISwiftUIMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISwiftUIMemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,8 @@
 		D258A3C424F20901003E6757 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				D24A9EBB24FA82A10016469A /* Cardify.swift */,
+				D201A46524F9DFF1004F3004 /* Pie.swift */,
 				D258A3C224F208FC003E6757 /* GridLayout.swift */,
 				D2A19EF824F4BC67007AAFE6 /* Array+Identifiable.swift */,
 				D23161FB24F7314900BB60CD /* Array+Only.swift */,
@@ -196,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24A9EBC24FA82A10016469A /* Cardify.swift in Sources */,
+				D201A46624F9DFF1004F3004 /* Pie.swift in Sources */,
 				D287558224EAF8EC00CB7B90 /* AppDelegate.swift in Sources */,
 				D287558424EAF8EC00CB7B90 /* SceneDelegate.swift in Sources */,
 				D287559624EAFC4E00CB7B90 /* MemoryGame.swift in Sources */,
