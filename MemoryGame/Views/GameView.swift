@@ -63,7 +63,7 @@ struct CardView: View {
                     if card.isConsumingBonusTime{
                         Pie(startAngle: Angle.degrees(0 - 90), endAngle: Angle.degrees(-animatedBonusRemaining * 360 - 90),clockwise: true)
                             .onAppear{
-                                startBonusTimeAnimation()
+                                self.startBonusTimeAnimation()
                             }
                     }else{
                         Pie(startAngle: Angle.degrees(0 - 90), endAngle: Angle.degrees(-card.bonusRemaining * 360 - 90),clockwise: true)
@@ -71,7 +71,7 @@ struct CardView: View {
                     }
                 }
                 .padding(5).opacity(5)
-                
+                .transition(.scale)
                 Text(card.content)
                     .font(Font.system(size: fontSize(for: size)))
                     .rotationEffect(Angle.degrees(card.isMatched ? 360 : 0))

@@ -111,7 +111,7 @@ struct MemoryGame <CardContent> where CardContent: Equatable{
         
         // whether we are currently face up, unmatched ad have not yet used up the bonus window
         var isConsumingBonusTime: Bool{
-            isFaceUp && isMatched && bonusTimeRemaining > 0
+            isFaceUp && !isMatched && bonusTimeRemaining > 0
         }
         
         // called whene the card transition to face up state
